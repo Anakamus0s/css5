@@ -1,0 +1,47 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+    border-left: solid 1px steelblue;
+    padding: 0 10px;
+}
+
+li {
+    float: left;
+}
+
+li a:hover {
+    color: black;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+li ul {
+    display: none;
+    position: absolute;
+}
+
+
+
+li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+li:hover ul {
+    display: block;
+}
+
+li ul li {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+li ul li a {
+    padding: 12px 16px;
+}
