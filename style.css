@@ -78,3 +78,7 @@ ul li ul li:last-child {
 ul li ul li {
     padding: 7px 0;
 }
+
+ul li ul li a:hover {
+    color: black;
+}
