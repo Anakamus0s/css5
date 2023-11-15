@@ -23,8 +23,6 @@ li ul {
     position: absolute;
 }
 
-
-
 li ul {
     display: none;
     position: absolute;
@@ -45,3 +43,14 @@ li ul li {
 li ul li a {
     padding: 12px 16px;
 }
+
+.actual {
+    font-weight: bold;
+}
+
+ul li:first-child{
+    border: none;
+}
+
+
+
