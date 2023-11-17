@@ -1,13 +1,9 @@
- 
-li {
-    float: left;
-}
-
 li {
     list-style-type: none;
     display: inline-block;
-    border-left: solid 1px steelblue; 
-    padding: 0 10px;
+    border-left: 1px solid steelblue; 
+    padding: 5px 10px;
+    float: left;
 }
 
 li a {
@@ -81,4 +77,8 @@ ul li ul li {
 
 ul li ul li a:hover {
     color: black;
+}
+
+li {
+    background-color: lightgray;
 }
