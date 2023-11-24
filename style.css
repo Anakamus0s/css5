@@ -3,7 +3,6 @@ li {
     display: inline-block;
     border-left: 1px solid steelblue; 
     padding: 5px 10px;
-    float: left;
 }
 
 li a {
